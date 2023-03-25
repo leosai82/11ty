@@ -12,7 +12,7 @@ const defaultDescription = 'TypeScript starter for Eleventy'
 module.exports = ({
   title,
   content,
-  lang = 'en',
+  lang = 'ko',
   description = defaultDescription,
 }: PageProps) => `
   <!doctype html>
