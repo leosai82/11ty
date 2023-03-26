@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-      - name: clean
-        run: yarn clean
       - name: build ts
         run: yarn build:ts
       - name: build 11ty
