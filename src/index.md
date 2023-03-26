@@ -6,4 +6,4 @@ layout: base.11ty.js
 
 This is an [11ty](https://11ty.dev) starter with TypeScript templates.
 
-Check out the [blog](/blog) too!
+Check out the [blog](./blog) too!
