@@ -9,8 +9,12 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-      - name: yarn build
-        run: yarn build
+      - name: clean
+        run: yarn clean
+      - name: build ts
+        run: yarn build:ts
+      - name: build 11ty
+        run: yarn build:11ty
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
